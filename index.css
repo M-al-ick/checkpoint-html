@@ -1,0 +1,112 @@
+.{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+
+header{
+    background-image: url(./img/backR,img/backround.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: #fff
+}
+
+.logodesigne a{
+    position: absolute;
+    height: auto;
+}
+
+.logodesigne a{
+    color: #fff;
+    padding: 0px 20px;
+    border: 5px #fff groove;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: rgba(0, 0, 0, 0.7);
+    width: auto;
+    height: auto;
+}
+
+.logodesigne span{
+    color: #fff;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+ul{
+    list-style: none;
+    float: right;
+    color: #fff;
+    display: flex;
+    margin-top: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0,6s ease;
+}
+
+ul li a:hover{
+    background: #fff;
+    color: #000;
+}
+gi
+ul li.active a{
+    background: #fff;
+    color: #000;
+}
+
+.pricipale{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+.titre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ 
+.titre h1{
+    font-size: 30px;
+}
+
+.bouton{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bouton a{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+}
+
+.bouton{
+    transition: oo,6s ease;
+}
+
+.bouton:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
